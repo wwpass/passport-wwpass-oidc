@@ -1,0 +1,27 @@
+{
+  "name": "passport-wwpass-oidc",
+  "version": "1.0.0",
+  "description": "passport.js strategy for authenticating through WWPass (OpenID Connect protocol)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wwpass/passport-wwpass-oidc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wwpass/passport-wwpass-oidc/issues",
+    "email": "Eugene.Medvedev@wwpass.com"
+  },
+  "keywords": [
+    "wwpass",
+    "passport",
+    "oidc",
+    "oauth",
+    "authentication",
+    "auth"
+  ],
+  "main": "lib/index.js",
+  "author": "Eugene Medvedev <Eugene.Medvedev@wwpass.com>",
+  "license": "MIT",
+  "dependencies": {
+    "passport-openidconnect": "^0.1.1"
+  }
+}
